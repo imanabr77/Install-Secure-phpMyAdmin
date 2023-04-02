@@ -51,7 +51,7 @@ Step 2 — Adjusting User Authentication and Privileges
  ```sh
  mysql> SELECT user,authentication_string,plugin,host FROM mysql.user
  ```
-
+```sql
 Output
 +------------------+------------------------------------------------------------------------+-----------------------+-----------+
 | user             | authentication_string                                                  | plugin                | host      |
@@ -64,6 +64,7 @@ Output
 | root             |                                                                        | auth_socket           | localhost |
 +------------------+------------------------------------------------------------------------+-----------------------+-----------+
 6 rows in set (0.00 sec)
+```
 
 
 
