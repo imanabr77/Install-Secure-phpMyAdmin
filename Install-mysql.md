@@ -1,4 +1,5 @@
-###Installing MYSQL
+#Installing MYSQL
+
 ```sh
 sudo apt install mysql-server
 ```
